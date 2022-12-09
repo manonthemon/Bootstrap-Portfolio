@@ -144,7 +144,7 @@ background-color: var(--PrimaryColor);
   }
 
   .skills img {
-    width: 20vh;
+    width: 15vh;
     justify-content: center;
     align-items: center;
   }
