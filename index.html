@@ -15,15 +15,15 @@
 
 <body>
 
-    <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+<!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light customNav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
@@ -48,112 +48,84 @@
     <!-- Hero section -->
 
      <section class="jumbotron hero">
-            <div class="jumboCopy">
-                <h1 class="display-4">Maciek Klimowicz</h1>
+            <div class="heroCopy">
+                <h1>Maciek Klimowicz</h1>
                 <p class="lead">Looking for a professional front-end developer? Need a SEO expert to boost your
                     business?
                     You're after
                     some quality content for your website? You're in the right place! </p>
-                <a class="btn btn-outline-dark .jumboButton" href="#" role="button">Learn more</a>
+                <a class="btn btn-outline-dark .heroButton" href="#" role="button">Learn more</a>
             </div>
-            <div class="jumboPhoto">
-                <img src="./images/Maciej Klimowicz.jpg" alt="Maciej Klimowicz">
+            <div class="heroPhoto">
+             <img src="./images/Maciej Klimowicz.jpg" alt="Maciej Klimowicz"> 
             </div>
         </section>
     </section>
 
 
     <!--Work section with cards -->
+  
+            <section class="container-fluid work">
+                <h2 class="sectionHeading">My Work</h2>
+                    <div class="row">
 
-   
-        <h2 class="sectionHeading">My Work</h2>
-            <section class="container-fluid content">
-               <div class="row">
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card">
-                        <img src="images/Travel_page.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Travel Website</h5>
-                            <p class="card-text">New art direction and brand new SEO-friendly content for this bespoke
+                        <div class="card col-lg-4 col-md-3 col-sm-12 " style="width: 18rem;">
+                            <img class="card-img-top" src="./images/Travel_page.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Travel Website</h5>
+                              <p class="card-text">Art direction and SEO-friendly content for this bespoke
                                 travel company website</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card">
-                        <img src="images/Winery_page.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Winery Website</h5>
-                            <p class="card-text">Captivating, SEO optimized content for this Portuguese winery website
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                    <div class="card">
-                        <img src="images/Product card.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">E-shop product card</h5>
-                            <p class="card-text">A custom-designed, beautiful e-shop product card using HTML and CSS</p>
+                            </div>
+                          </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
+                          <div class="card col-lg-4 col-md-3 col-sm-12 " style="width: 18rem;">
+                            <img class="card-img-top" src="./images/Winery_page.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Winery Website</h5>
+                              <p class="card-text">Captivating, SEO optimized content for this Portuguese winery website</p>
+                            </div>
+                          </div>
+
+                          <div class="card col-lg-4 col-md-3 col-sm-12 " style="width: 18rem;">
+                            <img class="card-img-top" src="./images/Product card.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">E-shop Product Card</h5>
+                              <p class="card-text">A custom-designed, beautiful e-shop product card using HTML and CSS</p>
+                            </div>
+                          </div>
 
 
-    <!-- Content section -->
+    <!-- Skills section -->
 
-    <section class="container-fluid skills">
+
+     <section class="container-fluid skills">
         <h2 class="sectionHeading">My Skills</h2>
-
-    
-            <div class="row skills">     
-                <div class="col-3 imageContainer">
-                    <img src="./images/html (1).png">
-                </div>
-                <div class="col-8">
+         <div class="row">     
+             <div class="col-lg-4 col-md-3 col-sm-12 skill-container">
+                <img src="./images/html-logo.png">
                     <h3>HTML</h3>
-                    <p>A solid foundation of your website for improved accessibility and better SEO performance</p>
+                     <p>A solid foundation of your website for optimal accessibility and improved SEO performance</p>
                 </div>
-            </div>
-            <div class="row skills">
-                <div class="col-3 imageContainer">
-                    <img src="./images/css (1).png">
-                </div>
-                <div class="col-8">
-                    <h3>CSS</h3>
-                    <p>A beautiful, bespoke style for your website to make it stand out from the crowd</p>
-                </div>
-            </div>
-            <div class="row skills">
-                <div class="col-3 imageContainer">
-                    <img src="images/javascript-39395.png">
-                </div>
-                <div class="col-8">
-                    <h3>JavaScript</h3>
-                    <p>To make your website truly interactive, captivating and more fun for the users</p>
-                </div>
-            </div>
-        </div>
+
+                <div class="col-lg-4 col-md-3 col-sm-12 skill-container">
+                    <img src="./images/css-logo.png">
+                        <h3>CSS</h3>
+                         <p>A beautiful, bespoke visual style for your website to make it further stand out from the crowd</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-3 col-sm-1 skill-container">
+                        <img src="./images/js-logo.png">
+                            <h3>JavaScript</h3>
+                             <p>To make your website truly interactive, highly captivating and more fun for the users</p>
+                        </div>
+
     </section>
 
-    <!-- End content -->
+
 
     <!-- Footer -->
-    <footer class="emailContain">
-        <form>
-            <h3>Join Our Mailing List</h3>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </footer>
+
+    
 
 
     <!-- Optional JavaScript -->
