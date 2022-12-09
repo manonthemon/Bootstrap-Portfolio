@@ -69,7 +69,7 @@ background-color: var(--PrimaryColor);
   } 
 
   .heroCopy {
-    width: 40%;
+   
     color: var(--SecondaryColor);
   }
 
@@ -82,6 +82,7 @@ background-color: var(--PrimaryColor);
     border: solid 5px var(--SecondaryColor);
     border-radius: 230px 119px 245px 115px;
     padding: 10px;
+ 
   }
 
   .heroPhoto img {
