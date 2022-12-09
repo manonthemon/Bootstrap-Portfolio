@@ -27,16 +27,19 @@ h1, h2, h3 , h4, h5, h6 {
     background-color:  rgba(255, 220, 45, 0.9) !important;
     background-size: cover;
     z-index: 100;
+
   }
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+
   }
 
   .nav-link{
     margin: 0px 15px;
     font-size: 2.5vh;
     font-weight: 700;
+  
   
   }
   
@@ -47,8 +50,7 @@ h1, h2, h3 , h4, h5, h6 {
     background-size: cover;
   }
   .dropdown-item:focus, .dropdown-item:hover {
-      color: #16181b;
-      text-decoration: none;
+     text-decoration: none;
       background: rgba(0, 0, 0, 0.1)
   }
   
