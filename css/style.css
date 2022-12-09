@@ -41,7 +41,6 @@ h1, h2, h3 , h4, h5, h6 {
     font-weight: 700;
   }
 
-  
   .nav-item :focus {
     color: black;
   }
@@ -85,8 +84,8 @@ background-color: var(--PrimaryColor);
 
   .jumboPhoto {
     border: solid 5px black;
-    border-radius: 210px 115px 219px 115px;
-    padding: 5px;
+    border-radius: 230px 119px 245px 115px;
+    padding: 10px;
   }
 
   .jumboPhoto img {
@@ -126,7 +125,7 @@ border-radius: 220px 125px 229px 125px;
 
   /*Content section*/
 
-  .content-section {
+  .skills {
     background-color: rgba(0, 0, 0, .9);
     padding: 60px 0px 80px 0px;
   }
