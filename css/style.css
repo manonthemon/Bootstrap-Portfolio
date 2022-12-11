@@ -23,26 +23,30 @@ h1, h2, h3 , h4, h5, h6 {
   .button {
     width: 140px;
     height: 45px;
-    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-weight: 500;
-    color: var(--PrimaryColor);
-    background-color: var(--SecondaryColor);
-    border: none;
+    color: var(--SecondaryColor);
+    background-color: var(--PrimaryColor);
+    border: solid 2px black;
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    outline: none;
+    outline: none !important;
     }
   
   .button:hover {
-    background-color: rgb(52, 52, 52);
-    box-shadow: 0px 15px 20px rgba(89, 89, 10, 0.4);
+    background-color: rgb(38, 38, 38);
+    box-shadow: 0px 20px 29px rgba(30, 30, 3, 0.4);
     color:var(--PrimaryColor);
     transform: translateY(-7px);
+    outline: none !important;
+  }
+
+  .button:focus,.button:active {
+    outline: none !important;
   }
   
   /* Navigation bar */
@@ -245,6 +249,4 @@ h1, h2, h3 , h4, h5, h6 {
   display: block;
   padding: 50px;
   color: white;
-
 }
-  
