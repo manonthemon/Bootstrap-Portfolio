@@ -5,13 +5,10 @@
     --SecondaryColor: rgba(0, 0, 0, .9);
 }
 
-
-
 body {
     background-color: white;
 }
 
-/* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
   }
@@ -54,12 +51,9 @@ h1, h2, h3 , h4, h5, h6 {
      text-decoration: none;
       background: rgba(0, 0, 0, 0.1)
   }
-  
+
   
   /* hero section  */
-
-
-
 
 
   .hero {
@@ -88,13 +82,12 @@ background-color: var(--PrimaryColor);
 
 
   .heroPhoto img {
-    height: 40vh;
+    height: 35vh;
     border-radius: 220px 125px 229px 125px;
     border: solid var(--SecondaryColor) 5px;
     margin: 20px;
     padding: 10px;
   }
-
 
 
 /*Work Section Cards*/   
@@ -168,6 +161,39 @@ background-color: var(--PrimaryColor);
     margin-bottom: 30px;
     padding: 15px 100px 15px 100px;
 
+    font-size: 2.2vh;
+
+  }
+
+  /*About me section style*/
+
+  .about-me {
+    padding: 60px 0px 80px 0px;
+
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 100px 100px;
+  }
+
+  .about-me h2 {
+    color: var(--SecondaryColor);
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .about-me img {
+    width: 15vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-container p {
+    color: var(--SecondaryColor);
     font-size: 2.2vh;
 
   }
