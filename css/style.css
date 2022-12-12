@@ -91,7 +91,7 @@ h1, h2, h3 , h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 90px;
+    padding-top: 130px;
     margin-bottom: 40px;
   } 
 
@@ -107,7 +107,7 @@ h1, h2, h3 , h4, h5, h6 {
 
   .heroPhoto img {
     position: relative;
-    top: -50px;
+    top: -55px;
     height: 33vh;
     border-radius: 220px 125px 229px 125px;
     border: solid var(--SecondaryColor) 5px;
@@ -131,15 +131,13 @@ h1, h2, h3 , h4, h5, h6 {
   text-align: center;
   margin: 0 auto;
   height: 45vh;
-  border: 0px;;
+  border: 0px;
 }
-  
-  .card-img-top {
-  height: 30vh;
-}
-      
-
-.card-img-top:hover {
+  .work img {
+    height: 25vh;
+ 
+  }
+.work img:hover {
   opacity: 0.5;
 }
 
