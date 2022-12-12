@@ -215,12 +215,6 @@ h1, h2, h3 , h4, h5, h6 {
   font-size: 2.2vh;
  }
 
-  @media screen and (max-width: 500px) {
-
-  .about-me-container img {
-    display: none;
-  }
-  }
 
 /*footer*/
 
@@ -234,19 +228,50 @@ h1, h2, h3 , h4, h5, h6 {
   padding: 50px;
 }
   
-.footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
   overflow: hidden;
 }
 
 .footer li {
-  float: left;
+  float:inline-start;
+  padding: 6px;
+  list-style-type: none !important;
 }
 
 .footer li a {
   display: block;
-  padding: 50px;
-  color: white;
+  margin: 35px;
+}
+
+
+.footer-button {
+  width: 40px;
+  font-size: 1.5vh;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background-color: var(--PrimaryColor);
+  border-radius: 45px;
+  cursor: pointer;
+  outline: none !important;
+  }
+
+.footer-button:hover {
+  background-color: rgb(38, 38, 38);
+  box-shadow: 0px 20px 29px rgba(77, 77, 77, 0.4);
+  outline: none !important;
+}
+
+.button:focus,.button:active {
+  outline: none !important;
+}
+
+@media screen and (max-width: 500px) {
+
+  .about-me-container img {
+    display: none;
+  }
 }
